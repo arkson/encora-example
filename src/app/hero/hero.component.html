@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>List of Heroes</h1>
+  <ul>
+    <li *ngFor="let hero of heroes">
+        <p><b>Name:</b> {{ hero.name }}</p>
+        <p><b>Power:</b> {{ hero.power }}</p>
+        <p><b>Rating:</b> {{ hero.rating }}</p>
+    </li>
+  </ul>
+</div>
